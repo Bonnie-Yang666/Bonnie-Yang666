@@ -1,0 +1,15 @@
+<svg width="1200" height="130" viewBox="0 0 1200 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .dash { stroke-dasharray: 8 18; animation: move 9s linear infinite; }
+    .star { animation: blink 2.5s ease-in-out infinite; }
+    .star.two { animation-delay: .9s; }
+    @keyframes move { to { stroke-dashoffset: -104; } }
+    @keyframes blink { 0%,100% { opacity:.35; } 50% { opacity:1; } }
+  </style>
+  <rect width="1200" height="130" rx="18" fill="#182C3A"/>
+  <path class="dash" d="M48 68C198 12 282 122 442 64C596 8 689 114 838 61C982 10 1061 86 1152 50" stroke="#7BDFF2" stroke-width="4" stroke-linecap="round"/>
+  <circle class="star" cx="258" cy="40" r="4" fill="#F4D35E"/>
+  <circle class="star two" cx="802" cy="44" r="4" fill="#B8F2E6"/>
+  <circle class="star" cx="986" cy="76" r="3" fill="#FFB4A2"/>
+  <text x="600" y="76" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#F8F5E4">keep shipping, keep learning</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .cloud { animation: drift 18s ease-in-out infinite alternate; }
+    .cloud.two { animation-duration: 24s; animation-delay: -6s; }
+    .spark { animation: twinkle 2.8s ease-in-out infinite; transform-origin: center; }
+    .spark:nth-of-type(2n) { animation-delay: .7s; }
+    .stem { stroke-dasharray: 160; stroke-dashoffset: 160; animation: grow 2.6s ease-out forwards; }
+    .petal { transform-origin: center; animation: bloom 3s ease-out infinite alternate; }
+    @keyframes drift { from { transform: translateX(-18px); } to { transform: translateX(24px); } }
+    @keyframes twinkle { 0%, 100% { opacity: .35; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.08); } }
+    @keyframes grow { to { stroke-dashoffset: 0; } }
+    @keyframes bloom { from { transform: scale(.92); } to { transform: scale(1.04); } }
+  </style>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7E8"/>
+      <stop offset=".45" stop-color="#DDF2E6"/>
+      <stop offset="1" stop-color="#DCEFFF"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="220" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A7C957"/>
+      <stop offset="1" stop-color="#6A994E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="24" fill="url(#sky)"/>
+  <circle cx="996" cy="68" r="38" fill="#FFD166"/>
+  <g class="cloud" fill="#FFFFFF" opacity=".9">
+    <ellipse cx="170" cy="70" rx="58" ry="22"/>
+    <ellipse cx="210" cy="63" rx="38" ry="25"/>
+    <ellipse cx="246" cy="73" rx="50" ry="20"/>
+  </g>
+  <g class="cloud two" fill="#FFFFFF" opacity=".75">
+    <ellipse cx="720" cy="92" rx="66" ry="24"/>
+    <ellipse cx="765" cy="82" rx="42" ry="29"/>
+    <ellipse cx="812" cy="95" rx="58" ry="22"/>
+  </g>
+  <circle class="spark" cx="450" cy="58" r="4" fill="#F4A261"/>
+  <circle class="spark" cx="550" cy="112" r="3" fill="#2A9D8F"/>
+  <circle class="spark" cx="890" cy="132" r="4" fill="#E76F51"/>
+  <path d="M0 222C143 205 257 230 391 217C542 202 627 185 789 208C962 232 1065 201 1200 219V280H0V222Z" fill="url(#ground)"/>
+  <g stroke="#386641" stroke-width="6" stroke-linecap="round">
+    <path class="stem" d="M205 235C205 204 220 183 247 164"/>
+    <path class="stem" d="M988 238C985 207 964 188 934 174"/>
+    <path class="stem" d="M614 238C616 205 633 182 666 158"/>
+  </g>
+  <g class="petal" fill="#F4795B">
+    <circle cx="252" cy="156" r="17"/>
+    <circle cx="235" cy="160" r="14"/>
+    <circle cx="247" cy="174" r="14"/>
+  </g>
+  <g class="petal" fill="#2A9D8F">
+    <circle cx="672" cy="150" r="18"/>
+    <circle cx="653" cy="156" r="14"/>
+    <circle cx="667" cy="170" r="13"/>
+  </g>
+  <g class="petal" fill="#E9C46A">
+    <circle cx="927" cy="168" r="16"/>
+    <circle cx="943" cy="177" r="13"/>
+    <circle cx="925" cy="185" r="13"/>
+  </g>
+  <text x="600" y="132" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#264653">coding garden</text>
+  <text x="600" y="166" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#38524A">projects, experiments, and tiny useful things</text>
+</svg>

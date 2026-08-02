@@ -1,0 +1,44 @@
+<svg width="1200" height="190" viewBox="0 0 1200 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: Segoe UI, Arial, sans-serif; }
+    .chip { filter: drop-shadow(0 8px 18px rgba(38,70,83,.12)); }
+    .chip rect { animation: breathe 4s ease-in-out infinite alternate; transform-origin:center; }
+    .chip:nth-child(2n) rect { animation-delay: -1s; }
+    @keyframes breathe { from { transform: scale(.99); } to { transform: scale(1.01); } }
+  </style>
+  <rect width="1200" height="190" rx="18" fill="#FCFAF5"/>
+  <text x="60" y="54" font-size="24" font-weight="700" fill="#264653">Tools I enjoy</text>
+  <g class="chip">
+    <rect x="60" y="82" width="148" height="46" rx="14" fill="#E76F51"/>
+    <text x="134" y="111" text-anchor="middle" font-size="17" font-weight="700" fill="white">JavaScript</text>
+  </g>
+  <g class="chip">
+    <rect x="228" y="82" width="136" height="46" rx="14" fill="#2A9D8F"/>
+    <text x="296" y="111" text-anchor="middle" font-size="17" font-weight="700" fill="white">TypeScript</text>
+  </g>
+  <g class="chip">
+    <rect x="384" y="82" width="104" height="46" rx="14" fill="#457B9D"/>
+    <text x="436" y="111" text-anchor="middle" font-size="17" font-weight="700" fill="white">React</text>
+  </g>
+  <g class="chip">
+    <rect x="508" y="82" width="118" height="46" rx="14" fill="#6A994E"/>
+    <text x="567" y="111" text-anchor="middle" font-size="17" font-weight="700" fill="white">Python</text>
+  </g>
+  <g class="chip">
+    <rect x="646" y="82" width="92" height="46" rx="14" fill="#E9C46A"/>
+    <text x="692" y="111" text-anchor="middle" font-size="17" font-weight="700" fill="#264653">Node</text>
+  </g>
+  <g class="chip">
+    <rect x="758" y="82" width="96" height="46" rx="14" fill="#F4A261"/>
+    <text x="806" y="111" text-anchor="middle" font-size="17" font-weight="700" fill="#264653">Git</text>
+  </g>
+  <g class="chip">
+    <rect x="874" y="82" width="126" height="46" rx="14" fill="#264653"/>
+    <text x="937" y="111" text-anchor="middle" font-size="17" font-weight="700" fill="white">OpenAI</text>
+  </g>
+  <g class="chip">
+    <rect x="1020" y="82" width="120" height="46" rx="14" fill="#8AB17D"/>
+    <text x="1080" y="111" text-anchor="middle" font-size="17" font-weight="700" fill="#20302E">Design</text>
+  </g>
+  <text x="60" y="160" font-size="15" fill="#5B6763">Change these labels any time. The profile will keep the same garden style.</text>
+</svg>

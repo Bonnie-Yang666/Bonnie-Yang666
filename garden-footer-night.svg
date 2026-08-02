@@ -1,0 +1,40 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .leaf { animation: sway 3.2s ease-in-out infinite alternate; transform-origin: bottom center; }
+    .leaf:nth-child(2n) { animation-delay: -1s; }
+    .cat-tail { animation: tail 2.2s ease-in-out infinite alternate; transform-origin: 948px 159px; }
+    .star { animation: blink 2.6s ease-in-out infinite; }
+    @keyframes sway { from { transform: rotate(-2deg); } to { transform: rotate(3deg); } }
+    @keyframes tail { from { transform: rotate(-8deg); } to { transform: rotate(12deg); } }
+    @keyframes blink { 0%,100% { opacity:.35; } 50% { opacity:1; } }
+  </style>
+  <rect width="1200" height="240" rx="22" fill="#172A3A"/>
+  <circle class="star" cx="160" cy="52" r="4" fill="#F4D35E"/>
+  <circle class="star" cx="1030" cy="72" r="3" fill="#B8F2E6"/>
+  <circle class="star" cx="820" cy="42" r="3" fill="#FFB4A2"/>
+  <path d="M0 170C148 140 278 181 402 158C544 131 673 148 794 168C950 194 1059 150 1200 164V240H0V170Z" fill="#31572C"/>
+  <path d="M0 194C131 171 262 202 414 187C568 172 671 177 803 198C949 221 1061 188 1200 199V240H0V194Z" fill="#132A13"/>
+  <g class="leaf" fill="#7BDFF2">
+    <ellipse cx="158" cy="145" rx="16" ry="39" transform="rotate(-20 158 145)"/>
+    <ellipse cx="190" cy="147" rx="16" ry="39" transform="rotate(23 190 147)"/>
+  </g>
+  <g class="leaf" fill="#F4D35E">
+    <ellipse cx="324" cy="156" rx="13" ry="34" transform="rotate(-17 324 156)"/>
+    <ellipse cx="350" cy="158" rx="13" ry="34" transform="rotate(18 350 158)"/>
+  </g>
+  <g class="leaf" fill="#8AB17D">
+    <ellipse cx="714" cy="145" rx="16" ry="39" transform="rotate(-20 714 145)"/>
+    <ellipse cx="746" cy="147" rx="16" ry="39" transform="rotate(23 746 147)"/>
+  </g>
+  <g>
+    <ellipse cx="940" cy="173" rx="46" ry="26" fill="#F8F5E4"/>
+    <circle cx="905" cy="153" r="24" fill="#F8F5E4"/>
+    <path d="M888 136L895 113L908 136" fill="#F8F5E4"/>
+    <path d="M908 136L923 115L924 141" fill="#F8F5E4"/>
+    <circle cx="898" cy="150" r="3" fill="#172A3A"/>
+    <circle cx="913" cy="150" r="3" fill="#172A3A"/>
+    <path class="cat-tail" d="M978 165C1015 137 1012 106 980 94" stroke="#F8F5E4" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <text x="600" y="80" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#F8F5E4">Thanks for stopping by</text>
+  <text x="600" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#D6EAD7">May your commits be small and your ideas keep growing.</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="1200" height="130" viewBox="0 0 1200 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .dash { stroke-dasharray: 8 18; animation: move 9s linear infinite; }
+    .leaf { animation: float 4s ease-in-out infinite alternate; transform-origin:center; }
+    .leaf.two { animation-delay: -1.2s; }
+    @keyframes move { to { stroke-dashoffset: -104; } }
+    @keyframes float { from { transform: translateY(-2px) rotate(-2deg); } to { transform: translateY(4px) rotate(3deg); } }
+  </style>
+  <rect width="1200" height="130" rx="18" fill="#F7F4EA"/>
+  <path class="dash" d="M48 68C198 12 282 122 442 64C596 8 689 114 838 61C982 10 1061 86 1152 50" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round"/>
+  <g class="leaf" fill="#8AB17D">
+    <ellipse cx="264" cy="53" rx="20" ry="9" transform="rotate(-24 264 53)"/>
+    <ellipse cx="288" cy="63" rx="20" ry="9" transform="rotate(24 288 63)"/>
+  </g>
+  <g class="leaf two" fill="#E9C46A">
+    <ellipse cx="780" cy="48" rx="18" ry="8" transform="rotate(-24 780 48)"/>
+    <ellipse cx="802" cy="58" rx="18" ry="8" transform="rotate(24 802 58)"/>
+  </g>
+  <text x="600" y="76" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#264653">keep shipping, keep learning</text>
+</svg>
