@@ -1,8 +1,8 @@
-<!-- ============ Bloom Header (day / night follows your theme) ============ -->
+﻿<!-- ============ Bloom Header (day / night follows your theme) ============ -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="bloom-header-night.svg" />
-    <img src="bloom-header.svg" width="900" alt="Bonnie — blooming banner" />
+    <img src="bloom-header.svg" width="900" alt="Bonnie-Yang666 — blooming banner" />
   </picture>
 </div>
 
