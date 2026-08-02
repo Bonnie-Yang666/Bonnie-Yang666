@@ -2,7 +2,7 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="bloom-header-night.svg" />
-    <img src="bloom-header.svg" width="900" alt="BonnieYang666 — blooming banner" />
+    <img src="bloom-header.svg" width="900" alt="Bonnie-Yang666 — blooming banner" />
   </picture>
 </div>
 
@@ -54,7 +54,7 @@
 
 <!-- ============ Snake ============ -->
 <div align="center">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/BonnieYang666/BonnieYang666/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Bonnie-Yang666/Bonnie-Yang666/output/github-contribution-grid-snake.svg" />
 </div>
 
 <!-- ============ Footer (a cat lives here) ============ -->
@@ -64,6 +64,6 @@
     <img src="garden-footer.svg" width="900" alt="garden footer" />
   </picture>
 
-![Profile Views](https://komarev.com/ghpvc/?username=BonnieYang666&label=Profile%20views&color=F4795B&style=flat)
+![Profile Views](https://komarev.com/ghpvc/?username=Bonnie-Yang666&label=Profile%20views&color=F4795B&style=flat)
 
 </div>
